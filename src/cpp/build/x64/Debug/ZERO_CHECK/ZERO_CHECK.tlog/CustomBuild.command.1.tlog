@@ -1,0 +1,10 @@
+^C:\USERS\UPAGANELLI\DESKTOP\ALIEN-SHOOTER\SRC\CPP\BUILD\CMAKEFILES\08EC40330D72CFC65F6F493B4F3CDEE0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/upaganelli/Desktop/alien-shooter/src/cpp -BC:/Users/upaganelli/Desktop/alien-shooter/src/cpp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/upaganelli/Desktop/alien-shooter/src/cpp/build/AlienShooter.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

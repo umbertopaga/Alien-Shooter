@@ -1,0 +1,10 @@
+^C:\USERS\UPAGANELLI\DESKTOP\ALIEN-SHOOTER\SRC\CPP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/upaganelli/Desktop/alien-shooter/src/cpp -BC:/Users/upaganelli/Desktop/alien-shooter/src/cpp/build --check-stamp-file C:/Users/upaganelli/Desktop/alien-shooter/src/cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
