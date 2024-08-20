@@ -26,8 +26,8 @@ Follow these steps to set up and run the game:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/umbertopaga/Alien_Shooter.git
-   cd alien-shooter
+   git clone https://github.com/umbertopaga/Alien-Shooter.git
+   cd Alien-Shooter
    ```
 
 2. **Build the Project:**
@@ -68,7 +68,7 @@ Follow these steps to set up and run the game:
 Here's an overview of the project's structure:
 
 ```
-alien-shooter/
+Alien-Shooter/
 │
 ├── assets/
 │   ├── images/
@@ -79,6 +79,9 @@ alien-shooter/
 │
 ├── src/
 │   ├── cpp/
+│   │   ├── build/
+│   │   │   ├── Debug/
+│   │   │   └── CMakeCache.txt
 │   │   ├── CMakeLists.txt
 │   │   ├── engine.cpp
 │   │   ├── engine.h
@@ -88,11 +91,11 @@ alien-shooter/
 │   │   ├── bullet.h
 │   │   ├── alien.cpp
 │   │   ├── alien.h
+│   │   ├── renderer.cpp
+│   │   ├── renderer.h
+│   │   ├── physics.cpp
+│   │   ├── physics.h
 │   │   └── main.cpp
-│
-└── build/
-    ├── Debug/
-    └── CMakeCache.txt
 ```
 
 ## Contributing
@@ -102,4 +105,3 @@ If you'd like to contribute to the project, feel free to fork the repository and
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-

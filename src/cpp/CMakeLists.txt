@@ -18,7 +18,6 @@ set(SOURCES
     alien.cpp
     physics.cpp
     renderer.cpp
-    ui.cpp
 )
 
 # Creazione dell'eseguibile
